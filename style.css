@@ -1,0 +1,420 @@
+body, html {
+    background-color: #373737;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+header{
+    /*background-color: black;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: baseline;
+    display: flex;
+    background-color: black;*/
+}
+h1 {
+    color: rgb(245, 245, 245);
+    margin-left: 10px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: lighter;
+    padding: 0px;
+    background-color: black;
+    font-size: 35px;
+}
+h2 {
+    text-align: center;
+    color: rgb(245, 245, 245);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+.shop {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+
+}
+p{
+    color: rgb(245, 245, 245);
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    width: 100%;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+    z-index: 1;
+}
+.nav-links a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.burger {
+    display: none;
+}
+.burger div{
+    width: 33px;
+    height: 3px;
+    background-color: rgb(245, 245, 245);
+    margin: 5px;
+}
+.artistpic{
+    display: flex;
+    /*border: 1px solid red;*/
+    width: 80vw;
+    height: 80vh;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 6%;
+    justify-content: space-between;
+}
+#artisthans{
+    width: 100%;
+    height: 20%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid #242424;
+}
+#artistseba{
+
+    width: 100%;
+    height: 20%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid #242424;
+}
+#artistjoel{
+
+    width: 100%;
+    height: 20%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid #242424;
+
+}
+#artistchino{
+    width: 100%;
+    height: 20%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid #242424;
+
+}
+.picofartist{
+    max-width:100%;
+    min-height:100%;
+    filter: grayscale(10%);
+    opacity: 0.3;
+}
+
+.centertext{
+    position: absolute;
+    font-size: 78px;
+    color: white;
+    font-family: 'Allura', cursive;
+    text-shadow:2px 2px  black;
+}
+
+.contact{
+    /*background-color: blue;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+}
+.contact2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.howtoig{
+    /*background-color: green;*/
+    width: auto;
+    height: 50%;
+    padding-right: 20%;
+}
+.howtofb{
+    /*background-color: yellow;*/
+    width: auto;
+    height: 50%;
+    padding-right: 10%;
+}
+.howtomail{
+    color: white;
+    font-size: 5vw;
+    /*background-color: tomato;*/
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.howtowhat{
+    /*background-color: red;*/
+    width: 100%;
+    height: auto;
+}
+.piclogo{
+    max-width: 80px;
+  
+}
+.piclogo2{
+    max-width: 40px;
+}
+.txt{
+    color: white;
+    font-size: 7vw;
+    position: relative;
+    bottom: 12px;
+    left: 15px;   
+}
+.maps{
+    display: flex;
+    margin: auto;
+    margin-top: 24vh;
+}
+.mapsact{
+    justify-content: center;
+    margin: auto;
+    width: 90vw;
+    height: 30vh;
+}
+.spccontact{
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+.wrapper{
+
+}
+.imgarea{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*background-color: blue;
+    border: green 1px solid;*/
+    height: 100%;
+    width: 90vw;
+    margin: auto;
+
+}
+.singleimg{
+    /*background-color: tomato;
+    border: violet 1px solid;*/
+    margin: 0px 10px 10px 10px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.hanspic{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    border: floralwhite 1px solid;
+}
+.onlyart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    /*background-color: black;*/
+    width: 100%;
+    position: fixed;
+}
+@media screen and (max-width:959px){
+    html {
+        overflow-x: hidden;
+     }   
+   body {
+       overflow-x: hidden;
+       /*position: relative; */ 
+   }
+    .nav-links{
+        position: absolute;
+        height: 40vh;
+        top: 4vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        align-items: center;
+        border: 0px solid red;
+        padding: 0px;
+        right: 0px;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links a {
+        font-size: 18px;
+        padding-top: 20px;
+        margin-right: 1px;
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    .nav-active{
+        transform: translateX(0%);
+    }
+    .shop {
+        width: 80%;
+        height: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+    p{
+        margin-top: 40px;
+    }
+    h2 {
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (min-width:768px){
+    .artistpic{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        height: 70vh;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 6%;
+        justify-content: center;
+    }
+    #artisthans, #artistchino, #artistseba, #artistjoel{
+        width: 40%;
+        height: 40%;
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border: 2px solid #242424;
+        margin: 30px;
+    }
+    .centertext{
+        position: absolute;
+        font-size: 108px;
+        color: white;
+        font-family: 'Allura', cursive;
+        text-shadow:2px 2px  black;
+        text-align: center;
+    }
+    #artisthans:hover, #artistchino:hover, #artistseba:hover, #artistjoel:hover{
+        background-color: rgba(141, 141, 141, 0.747);
+        cursor: pointer;
+        border: 2px solid #660303;
+        transition: .9s;
+    } 
+    .howtomail{
+        color: white;
+        font-size: 2vw;
+        /*background-color: tomato;*/
+        padding-top: 0px;
+        font-family: 'Montserrat', sans-serif;
+        margin: auto;
+    }
+    .txt{
+        color: white;
+        font-size: 2vw;
+        position: relative;
+        bottom: 12px;   
+    }
+    .maps{
+        display: flex;
+        margin: auto;
+        margin-top: 24vh;
+    }
+    .locationtxt{
+        color: rgb(245, 245, 245);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vmax;
+    }
+}
+
+@media screen and (min-width:400px){
+    .imgarea{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 99vw;
+        margin: auto;
+    }
+    .singleimg{
+        width: 40%;
+        height: auto;
+        display: inline-flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .hanspic{
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        border: floralwhite 1px solid;
+    }
+}
+@media screen and (min-width:959px){
+    .imgarea{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 99vw;
+        margin: auto;
+        margin-top: 90px !important;
+    }
+}
