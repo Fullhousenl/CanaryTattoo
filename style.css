@@ -380,7 +380,7 @@ nav {
     }
 }
 
-@media screen and (min-width:400px){
+@media screen and (min-width:700px){
     .imgarea{
         display: flex;
         flex-wrap: wrap;
